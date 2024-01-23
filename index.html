@@ -2,22 +2,106 @@
 <html lang="pt-BR">
     <head>
         <meta charset="utf-8">
+        <title>Aulas de Front-End I</title>
+        <style>
+            body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #102f53;
+            color: #333;
+        }
+
+        header {
+            background-color: #102f53;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #215796;
+            padding: 1em;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 1em;
+        }
+
+        section {
+            padding: 2em;
+            margin: 2em;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #102f53;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        h3 {
+            font-size: 20px;
+        }
+
+        h4 {
+            font-size: 20px;
+        }
+
+        h5 { 
+            font-size: 20px;
+        }
+
+        h6 {
+            font-size: 20px;
+        }
+
+        </style>
     </head>
     <body>
-        <h1>Front End I</h1>
-        <h2>Nesse site vou colocar as coisas que estudamos durante a matéria</h2>
-        <h3>Aulas:</h3>
-        <ul>
-            <li>15/01 - Apresentação e criação do primeiro site</li>
-            <li>16/01 - Paragráfo, cabeçalho, quebra de linha e comentários</li>
-            <li>17/01 - Listas, links e imagens</li>
-        </ul>
-        <h4>Abaixo vão estar os links dos sites criados conforme as aulas</h4>
-        <a href="https://thiagofirmeza.github.io/fe1-01-apresenta-o/">Site da primeira aula</a>
-        <p>Nesse site, o professor já deixou o site pronto e pediu pra trocar a imagem e a legenda.</p>
-        <a href="https://thiagofirmeza.github.io/fe1-02-pefil01/">Site 01 da segunda aula</a>
-        <p>Nesse site, criado do zero, o professor pediu para colocarmos duas estrofes de uma musica, o site serviu pra ensinar a como quebrar as linhas da música</p>
-        <a href="https://thiagofirmeza.github.io/fe1-02-perfil02/">Site 02 da segunda aula</a>
-        <p>Nesse site, criado do zero, o professor pediu para criarmos uma lista de sua preferencia para aprender a criar listas junto com imagens.</p>
+        <header>
+            <h1>Aulas de Front-End I</h1>
+            <h2>Nesse site, irei colocar as coisas que esudamos durante a matéria</h2>
+        </header>
+
+        <nav>
+            <a href="#section1">Aula 1</a>
+            <a href="#section2">Aula 2</a>
+            <a href="#section3">Aula 3</a>
+            <a href="#section4">Aula 4</a>
+            <a href="#section5">Aula 5</a>
+        </nav>
+
+        <section id="section1">
+            <h3>Aula 01 - 15/01</h3>
+            <p>Apresentação e criação do primeiro site</p>
+            <a href="https://thiagofirmeza.github.io/fe1-01-apresenta-o/">Site da primeira aula</a>
+            <p>Nesse site, o professor já deixou o site pronto e pediu pra trocar a imagem e a legenda.</p>
+        </section>
+        
+        <section id="section2">
+            <h4>Aula 02 - 16/01</h4>
+            <p>Paragráfo, cabeçalho, quebra de linha e comentários</p>
+            <a href="https://thiagofirmeza.github.io/fe1-02-pefil01/">Site 01 da segunda aula</a>
+            <p>Nesse site, criado do zero, o professor pediu para colocarmos duas estrofes de uma musica, o site serviu pra ensinar a como quebrar as linhas da música</p>
+            <a href="https://thiagofirmeza.github.io/fe1-02-perfil02/">Site 02 da segunda aula</a>
+            <p>Nesse site, criado do zero, o professor pediu para criarmos uma lista de sua preferencia para aprender a criar listas junto com imagens.</p>
+        </section>
+
+        <section id="section3">
+            <h5>Aula 03 - 17/01</h5>
+            <p>Listas, links e imagens</p>
+        </section>
+
+        <section id="section4">
+            <h6>Aula 04 - 18/01</h6>
+            <p>Apresentação do CSS e mudança do site</p>
+        </section>
     </body>
 </html>
